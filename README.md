@@ -1,4 +1,4 @@
-# PBFisher
+# MIFisher
 Fisher matrix for spectrum and bispectrum
 
 MIFisher, by L. Amendola (2023)
