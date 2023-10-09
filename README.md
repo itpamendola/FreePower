@@ -5,6 +5,8 @@ FreePower, by L. Amendola (2023)
 ================================
 Collaboration with M. Pietroni, M. Marinucci, M. Quartin
 
+****A bug has been found. New release soon!******
+
 FreePower is composed of three Mathematica notebooks, to be run in sequence. 
 It produces the calculations of paper arXiv:2307.02117.
 If you use this code, please cite that paper.
