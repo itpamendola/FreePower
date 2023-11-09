@@ -5,22 +5,17 @@ FreePower, by L. Amendola (2023)
 ================================
 Collaboration with M. Pietroni, M. Marinucci, M. Quartin
 
-****A bug has been found. New release soon!******
-
-FreePower is composed of three Mathematica notebooks, to be run in sequence. 
-It produces the calculations of paper arXiv:2307.02117.
-If you use this code, please cite that paper.
+FreePower is composed of two Mathematica notebooks, to be run in sequence. 
+It produces the calculations of paper arXiv:2307.02117. If you use this code, please cite that paper.
 Let us call FreePower  the directory in which the zip file is opened.
 
 All the directories in which input or output is located are named in the file 
 FreePower/Fisher/folder.txt and are read from this file.
 
-The first notebook is 
-FreePower/Fisher/Kernel.nb
-This notebook creates the analytic kernels and store them in FreePower/Fisher/kernels.
-This needs be run only once. It takes around 20 minutes on a 8-cores laptop.
 
-The second is
+The analytic kernels are already stored  in FreePower/Fisher/kernels.
+
+The first code is
 FreePower/Fisher/SpectraAndDerivatives.nb
 This reads the kernels, the input linear spectra (in FreePower/inputlinearspectra) 
 and the survey fiducial (in FreePower/fiducials) and creates the one-loop spectra 
@@ -30,7 +25,7 @@ This needs to be run once for every different input linear spectrum or different
 It takes around three hours.
 
 
-The third is 
+The second code is 
 FreePower/Fisher/NLFisher-bispectrum.nb
 This reads the spectra and derivatives and creates configuration files in FreePower/Fisher/Results/config, 
 and then produces the Fisher matrices for P,B,P+B, storing the results in FreePower/Fisher/Results/FM. 
