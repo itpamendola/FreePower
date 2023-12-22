@@ -27,8 +27,8 @@ It takes around three hours.
 
 
 The second code is 
-FreePower/Fisher/NLFisher-bispectrum.nb . If you already run SpectraAndDerivatives, and you only changed the survey specifications 
-(volumes, density, redshift bins etc) you only need to run this code.
+FreePower/Fisher/NLFisher-bispectrum.nb . If you have already executed SpectraAndDerivatives, and you only changed the survey specifications 
+(volumes, densities, redshift bins, etc) you only need to run this code.
 This reads the spectra and derivatives and creates configuration files in FreePower/Fisher/Results/config, 
 and then produces the Fisher matrices for P,B,P+B, storing the results in FreePower/Fisher/Results/FM. 
 The main types of output files are
