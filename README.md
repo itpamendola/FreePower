@@ -3,7 +3,7 @@ Fisher matrix for spectrum and bispectrum
 
 FreePower, by L. Amendola (2023)
 ================================
-Collaboration with M. Pietroni, M. Marinucci, M. Quartin
+Collaboration with  T. Harder, M. Marinucci, M. Quartin, M. Pietroni.
 
 FreePower is composed of two Mathematica notebooks, to be run in sequence. 
 It produces the calculations of paper arXiv:2307.02117. If you use this code, please cite that paper.
