@@ -15,12 +15,13 @@ FreePower/Fisher/folder.txt and are read from this file.
 
 The analytic kernels are already stored  in FreePower/Fisher/kernels.
 
+You need to install the CUBA integration package by T. Hahn into a directory FreePower/Cuba.
+
 The first code is
 FreePower/Fisher/SpectraAndDerivatives.nb
 This reads the kernels, the input linear spectra (in FreePower/inputlinearspectra) 
 and the survey fiducial (in FreePower/fiducials) and creates the one-loop spectra 
 and the needed derivatives, and store the results in FreePower/Fisher/Results/SpectraAndDerivatives
-You need to install the CUBA integration package by T. Hahn into a directory FreePower/Cuba.
 This needs to be run once for every different input linear spectrum or different fiducial values.
 It takes around three hours.
 
