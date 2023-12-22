@@ -22,7 +22,7 @@ FreePower/Fisher/SpectraAndDerivatives.nb
 This reads the kernels, the input linear spectra (in FreePower/inputlinearspectra) 
 and the survey fiducial (in FreePower/fiducials) and creates the one-loop spectra 
 and the needed derivatives, and store the results in FreePower/Fisher/Results/SpectraAndDerivatives
-This needs to be run once for every different input linear spectrum or different fiducial values.
+This needs to be run once for every different input linear spectrum or different fiducial values (more info about when a new run is needed is in the file FreePower/fiducials).
 It takes around three hours.
 
 
